@@ -33,7 +33,7 @@ const Chat = ({ room }) => {
     });
 
     return () => unsubscribe();
-  }, []);
+  }, [messagesRef, room]);
 
   const handleSubmit = async (event) => {
     event.preventDefault();

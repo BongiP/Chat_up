@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React, { useState } from "react";
 import Chat from "./components/Chat/Chat";
 import Auth from "./components/Auth/Auth";
 import AppWrapper from "./components/AppWrapper";
@@ -7,7 +7,7 @@ import "./index.css";
 
 const cookies = new Cookies();
 
-function ChatApp() {
+function App() {
   const [isAuth, setIsAuth] = useState(cookies.get("auth-token"));
   const [isInChat, setIsInChat] = useState(null);
   const [room, setRoom] = useState("");
@@ -45,4 +45,4 @@ function ChatApp() {
   );
 }
 
-export default ChatApp;
+export default App;
