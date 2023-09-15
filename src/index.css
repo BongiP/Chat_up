@@ -10,6 +10,9 @@ body {
   height: 100vh;
   flex-direction: column;
   font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-image: url(./assets/background.jpg);
+  background-size: cover;
+  background-position: center;
 }
 
 .app-header {
@@ -26,6 +29,9 @@ body {
 .room {
   display: flex;
   flex-direction: column;
+  background-image: url(./assets/chatroom.jpg);
+  background-size: cover;
+  background-position: center;
 }
 
 .room label {
