@@ -29,9 +29,6 @@ body {
 .room {
   display: flex;
   flex-direction: column;
-  background-image: url(./assets/chatroom.jpg);
-  background-size: cover;
-  background-position: center;
 }
 
 .room label {
